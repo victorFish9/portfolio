@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "content withdescription",
+    "description": "typical description",
+    "link":"https://youtu.be/Yhivl6fln3s?si=4r11YQqRGIlntC6D"
+    
+}
+
+# {
+#     "content": "data addedS",
+#     "important": true
+# }
