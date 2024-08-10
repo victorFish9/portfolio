@@ -35,24 +35,24 @@ export const Skills = () => {
                             <p>simple lorem simple loremsimple loremsimple loremsimple loremsimple loremsimple lorem</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src="" alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                                    <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src="" alt="Image" />
-                                    <h5>brand Identify</h5>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
+                                    <h5>Django</h5>
                                 </div>
                                 <div className="item">
-                                    <img src="" alt="Image" />
-                                    <h5>Logo design</h5>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
+                                    <h5>Nodejs</h5>
                                 </div>
                                 <div className="item">
-                                    <img src="" alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+                                    <h5>Spring Boot</h5>
                                 </div>
                                 <div className="item">
-                                    <img src="" alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+                                    <h5>Docker</h5>
                                 </div>
                             </Carousel>
                         </div>
