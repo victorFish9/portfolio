@@ -42,7 +42,7 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={LinkedInImg} alt="LinkedIn" /></a>
+                            <a href=""><img src={LinkedInImg} alt="LinkedIn" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's connect</span></button>
                     </span>
