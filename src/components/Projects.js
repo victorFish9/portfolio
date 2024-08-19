@@ -13,7 +13,7 @@ export const Projects = () => {
             imgUrl: "https://t4.ftcdn.net/jpg/02/38/40/55/360_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
         },
         {
-            title: "Business Startup",
+            title: "Business End",
             description: "Design & Development",
             imgUrl: "https://t4.ftcdn.net/jpg/02/38/40/55/360_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
         },
@@ -39,7 +39,7 @@ export const Projects = () => {
         },
     ];
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
