@@ -42,7 +42,7 @@ export const Projects = () => {
                                 </div>}
                         </TrackVisibility>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" className="nav-pills mb-2 justify-content-center align-items-center" id="pills-tab">
+                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab 1</Nav.Link>
                                 </Nav.Item>
@@ -56,41 +56,29 @@ export const Projects = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <Row>
-                                        <div className="card-container">
-                                            {projects.map((project, index) => {
-                                                return (
-                                                    <Link to={`/projects/${project.id}`}>
-                                                        <ProjectCarta {...project} />
-                                                    </Link>
-                                                )
-                                            })}
-                                        </div>
+                                        {
+                                            projects.map((project, index) => (
+                                                <ProjectCard key={index} {...project} />
+                                            ))
+                                        }
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
                                     <Row>
                                         {
-                                            projects.map((project, index) => {
-                                                return (
-
-                                                    <ProjectCard key={index} {...project} />
-                                                )
-                                            })
+                                            projects.map((project, index) => (
+                                                <ProjectCard key={index} {...project} />
+                                            ))
                                         }
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
                                     <Row>
-                                        <div className="card-container">
-                                            {projects.map((project, index) => {
-                                                return (
-                                                    <Link to={`/projects/${project.id}`}>
-                                                        <ProjectCarta {...project} />
-                                                    </Link>
-                                                )
-                                            })}
-
-                                        </div>
+                                        {
+                                            projects.map((project, index) => (
+                                                <ProjectCard key={index} {...project} />
+                                            ))
+                                        }
                                     </Row>
                                 </Tab.Pane>
                             </Tab.Content>
