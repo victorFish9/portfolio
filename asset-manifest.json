@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9cb81c49.css",
-    "main.js": "/portfolio/static/js/main.60d104d9.js",
+    "main.css": "/portfolio/static/css/main.cb767d84.css",
+    "main.js": "/portfolio/static/js/main.903b9f16.js",
     "static/js/453.d870f9f6.chunk.js": "/portfolio/static/js/453.d870f9f6.chunk.js",
     "static/media/header-img.png": "/portfolio/static/media/header-img.c221ca86c87271bd8a48.png",
     "static/media/linkedin-svgrepo-com.png": "/portfolio/static/media/linkedin-svgrepo-com.2800c56b104c69bf1420.png",
@@ -9,12 +9,12 @@
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.9cb81c49.css.map": "/portfolio/static/css/main.9cb81c49.css.map",
-    "main.60d104d9.js.map": "/portfolio/static/js/main.60d104d9.js.map",
+    "main.cb767d84.css.map": "/portfolio/static/css/main.cb767d84.css.map",
+    "main.903b9f16.js.map": "/portfolio/static/js/main.903b9f16.js.map",
     "453.d870f9f6.chunk.js.map": "/portfolio/static/js/453.d870f9f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cb81c49.css",
-    "static/js/main.60d104d9.js"
+    "static/css/main.cb767d84.css",
+    "static/js/main.903b9f16.js"
   ]
 }
