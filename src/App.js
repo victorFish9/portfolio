@@ -38,7 +38,7 @@ function App() {
         <NavBar />
         <Routes>
           {/* Home route showing all sections */}
-          <Route path="/" element={
+          <Route path="/portfolio" element={
             <>
               <Banner />
               <Skills />
