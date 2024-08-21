@@ -1,10 +1,10 @@
 import { Col, Row, Container, Tab, Nav } from "react-bootstrap";
-import { Link } from 'react-router-dom';
 import { ProjectCard } from "./ProjectCard";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { ProjectCarta } from "./ProjectCarta";
+
+import projects1 from '../projects-file'
 
 export const Projects = () => {
 
@@ -57,7 +57,7 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {
-                                            projects.map((project, index) => (
+                                            projects1.map((project, index) => (
                                                 <ProjectCard key={index} {...project} />
                                             ))
                                         }
@@ -66,7 +66,7 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="second">
                                     <Row>
                                         {
-                                            projects.map((project, index) => (
+                                            projects1.map((project, index) => (
                                                 <ProjectCard key={index} {...project} />
                                             ))
                                         }
@@ -75,7 +75,7 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="third">
                                     <Row>
                                         {
-                                            projects.map((project, index) => (
+                                            projects1.map((project, index) => (
                                                 <ProjectCard key={index} {...project} />
                                             ))
                                         }
