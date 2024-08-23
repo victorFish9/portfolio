@@ -18,7 +18,6 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          {/* Home route showing all sections */}
           <Route path="/portfolio" element={
             <>
               <Banner />
@@ -27,8 +26,6 @@ function App() {
               <Footer />
             </>
           } />
-
-          {/* Project detail route */}
           <Route path="/projects/:projectId" element={<ProjectDetail projects={projects} />} />
         </Routes>
       </div>

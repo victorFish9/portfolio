@@ -2,6 +2,7 @@ import { Navbar, Container, Nav } from "react-bootstrap"
 import { useState, useEffect } from "react"
 import LinkedInImg from '../photo/linkedin-svgrepo-com.png'
 import logo from '../photo/header-img.png'
+import { Link } from "react-router-dom"
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -29,7 +30,9 @@ export const NavBar = () => {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="Logo" />
+                    <Link to={`/portfolio`}>
+                        <img src={logo} alt="Logo" />
+                    </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" >
                     <span className="navbar-toggler-icon"></span>
@@ -44,7 +47,6 @@ export const NavBar = () => {
                         <div className="social-icon">
                             <a href=""><img src={LinkedInImg} alt="LinkedIn" /></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's connect</span></button>
                     </span>
                 </Navbar.Collapse>
             </Container>
