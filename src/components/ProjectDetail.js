@@ -30,9 +30,19 @@ export const ProjectDetail = ({ projects }) => {
         <div className="project-detail-container">
             <h2>{title}</h2>
             <div className="image-carousel">
-                <button className="carousel-button prev" onClick={prevImage}>‹</button>
-                <img src={images[currentImageIndex]} alt={title} />
-                <button className="carousel-button next" onClick={nextImage}>›</button>
+                {images.length > 1 && (
+                    <button className="carousel-button prev" onClick={prevImage}>
+                        ‹
+                    </button>
+                )}
+                <div className="image-wrapper">
+                    <img src={images[currentImageIndex]} alt={`${title} - ${currentImageIndex + 1}`} />
+                </div>
+                {images.length > 1 && (
+                    <button className="carousel-button next" onClick={nextImage}>
+                        ›
+                    </button>
+                )}
             </div>
             <p>{description}</p>
             <button className="back-button" onClick={() => navigate(-1)}>Go Back</button>

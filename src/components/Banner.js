@@ -38,7 +38,6 @@ export const Banner = () => {
                                     </span>
                                     <h1>{'Hi I am Victor '}<span className="wrap">Web developer</span></h1>
                                     <p>simple lorem simple loremsimple loremsimple loremsimple loremsimple loremsimple lorem</p>
-                                    <button onClick={() => console.log("connect")}>Let's connect<ArrowRightCircle size={25} /></button>
                                 </div>}
                         </TrackVisibility>
                     </Col>
