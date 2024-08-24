@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.be04bfcc.css",
-    "main.js": "/portfolio/static/js/main.4f9eef56.js",
-    "static/js/453.d870f9f6.chunk.js": "/portfolio/static/js/453.d870f9f6.chunk.js",
+    "main.js": "/portfolio/static/js/main.bd330c1e.js",
+    "static/js/453.45a2cce2.chunk.js": "/portfolio/static/js/453.45a2cce2.chunk.js",
     "static/media/esnScreen1.png": "/portfolio/static/media/esnScreen1.5bd26dd58254c50584ee.png",
     "static/media/esnScreen4.png": "/portfolio/static/media/esnScreen4.48725e4e1184213884f8.png",
     "static/media/esnScreen2.png": "/portfolio/static/media/esnScreen2.9f3618e014638aa28097.png",
     "static/media/esnScreen3.png": "/portfolio/static/media/esnScreen3.954e5f95d9ee2ab516f0.png",
+    "static/media/dogStoreScreen2.png": "/portfolio/static/media/dogStoreScreen2.06dc9e95a19cdb6a5ea9.png",
+    "static/media/dogStoreScreen3.png": "/portfolio/static/media/dogStoreScreen3.21e4595c76c599a04d0b.png",
+    "static/media/dogStoreScreen4.png": "/portfolio/static/media/dogStoreScreen4.4319893ac15b35e5e25e.png",
     "static/media/github.png": "/portfolio/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/dogStoreScreen1.png": "/portfolio/static/media/dogStoreScreen1.72e9c8495ad1ba35e5f9.png",
     "static/media/web-FI-HELS-KAN-colour-black-with-white-background.jpeg": "/portfolio/static/media/web-FI-HELS-KAN-colour-black-with-white-background.7f06cd81612a599065a5.jpeg",
     "static/media/header-img.png": "/portfolio/static/media/header-img.c221ca86c87271bd8a48.png",
     "static/media/linkedin-svgrepo-com.png": "/portfolio/static/media/linkedin-svgrepo-com.2800c56b104c69bf1420.png",
@@ -16,11 +20,11 @@
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
     "main.be04bfcc.css.map": "/portfolio/static/css/main.be04bfcc.css.map",
-    "main.4f9eef56.js.map": "/portfolio/static/js/main.4f9eef56.js.map",
-    "453.d870f9f6.chunk.js.map": "/portfolio/static/js/453.d870f9f6.chunk.js.map"
+    "main.bd330c1e.js.map": "/portfolio/static/js/main.bd330c1e.js.map",
+    "453.45a2cce2.chunk.js.map": "/portfolio/static/js/453.45a2cce2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be04bfcc.css",
-    "static/js/main.4f9eef56.js"
+    "static/js/main.bd330c1e.js"
   ]
 }
