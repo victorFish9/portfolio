@@ -32,7 +32,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>simple lorem simple loremsimple loremsimple loremsimple loremsimple loremsimple lorem</p>
+                            <p>As a student, I've gained practical experience in both front-end and back-end development through coursework and self-study. I've studied React, Spring Boot, and Docker at university and independently explored Django and Node.js. These skills allow me to build dynamic, web applications.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />

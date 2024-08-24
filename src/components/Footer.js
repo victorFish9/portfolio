@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 
 import LinkedInImg from '../photo/linkedin-svgrepo-com.png'
 import logo from '../photo/header-img.png'
+import GithubImg from '../photo/github.png'
 
 
 export const Footer = () => {
@@ -16,7 +17,11 @@ export const Footer = () => {
                         <div className="social-icon">
                             <a href=""><img src={LinkedInImg} /></a>
                         </div>
-                        <p>CopyRight 2022. All Right Reserved</p>
+                        <div className="social-icon">
+                            <a href=""><img src={GithubImg} alt="LinkedIn" /></a>
+                        </div>
+                        <p>victor.cherkasov222@gmail.com</p>
+                        <p>CopyRight 2024. All Right Reserved</p>
                     </Col>
                 </Row>
             </Container>

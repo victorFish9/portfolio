@@ -12,7 +12,7 @@ export const ProjectDetail = ({ projects }) => {
         return <div>Project not found!</div>;
     }
 
-    const { title, description, images } = project;
+    const { title, description, images, sourceCode, siteLink } = project;
 
     const nextImage = () => {
         setCurrentImageIndex((prevIndex) =>
@@ -45,6 +45,29 @@ export const ProjectDetail = ({ projects }) => {
                 )}
             </div>
             <p>{description}</p>
+            {sourceCode && siteLink ? (<div>
+                <p>
+                    <a href={sourceCode} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
+                        Open source code
+                    </a>
+                    <br></br>
+                    <a href={siteLink} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
+                        Live site
+                    </a>
+                </p>
+            </div>) : sourceCode ? (
+                <p>
+                    <a href={sourceCode} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
+                        Open source code
+                    </a>
+                </p>
+            ) : siteLink ? (
+                <p>
+                    <a href={siteLink} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
+                        Live site
+                    </a>
+                </p>
+            ) : null}
             <button className="back-button" onClick={() => navigate(-1)}>Go Back</button>
         </div>
     );

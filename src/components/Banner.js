@@ -37,7 +37,9 @@ export const Banner = () => {
                                         Welcome to my portfolio
                                     </span>
                                     <h1>{'Hi I am Victor '}<span className="wrap">Web developer</span></h1>
-                                    <p>simple lorem simple loremsimple loremsimple loremsimple loremsimple loremsimple lorem</p>
+                                    <p>
+                                        I build responsive, intuitive websites and develop robust back-end systems to ensure seamless performance and scalability.
+                                    </p>
                                 </div>}
                         </TrackVisibility>
                     </Col>
