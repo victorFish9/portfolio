@@ -25,12 +25,16 @@ const projects = [
         ],
         sourceCode: "https://github.com/victorFish9/esnhaagahelia",
         siteLink: "https://esnhaagahelia.eu/",
-        language: "JavaScript"
+        language: "JavaScript",
+        technology: [
+            "JavaScript",
+            "React",
+        ]
     },
     {
         id: "2",
         title: "Dog Store Website",
-        description: "I developed a full-stack e-commerce website for a dog store as part of a university team project, using Java Spring Boot for the back-end API and React for the front-end. The API manages products, users, customers, and manufacturers. The Main API serves as a central hub, linking to resources like products, manufacturers, types, customers, and users. The User Management API handles user registration, authentication, and roles, including creating, updating, and deleting profiles. The Manufacturer API manages manufacturer details and associated products. The Product Type API categorizes products for easy filtering. The Customer API manages customer profiles and supports searching. We also created a simple front-end to display products from the API and support user registration, effectively combining the back-end and front-end for a seamless demonstration.",
+        description: "I developed a full-stack e-commerce website for a dog store as part of a university team project, using Java Spring Boot for the back-end and React for the front-end. The project included creating a back-end API to manage products, users, customers, and manufacturers. The Main API serves as a central hub, linking to resources like products, manufacturers, types, customers, and users. The User Management API handles user registration, authentication, and roles, including creating, updating, and deleting profiles. The Manufacturer API manages manufacturer details and associated products, while the Product Type API categorizes products for easy filtering. The Customer API manages customer profiles and supports searching. We developed a simple front-end with React to demonstrate product listings from the API and a registration system, effectively combining the back-end and front-end. At the end of the project, I wrote Docker rules to deploy the back-end system to Render.com.",
         imgUrl: dogStoreScreen1,
         images: [
             dogStoreScreen1,
@@ -39,7 +43,12 @@ const projects = [
             dogStoreScreen2,
         ],
         sourceCode: "https://github.com/orgs/Ohjelmistoprojekti-1-Ryhma-2/repositories",
-        language: "Java"
+        language: "Java",
+        technology: [
+            "Java",
+            "React",
+            "Docker"
+        ]
     },
     {
         id: "3",

@@ -712,6 +712,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: auto;
 }
 
 .project-detail-container .back-button:hover {

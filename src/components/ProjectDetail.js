@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export const ProjectDetail = ({ projects }) => {
     const { projectId } = useParams();
@@ -8,11 +9,41 @@ export const ProjectDetail = ({ projects }) => {
     const navigate = useNavigate();
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+    const techIcons = {
+        // https://devicon.dev/
+        "React": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "Spring Boot": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+        "Java": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+        "Docker": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        "JavaScript": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    };
+
+    const responsive = {
+        superLargeDesktop: {
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
+
     if (!project) {
         return <div>Project not found!</div>;
     }
 
-    const { title, description, images, sourceCode, siteLink } = project;
+    const { title, description, images, sourceCode, siteLink, technology } = project;
+
+    console.log("Technology array: ", projects)
 
     const nextImage = () => {
         setCurrentImageIndex((prevIndex) =>
@@ -45,25 +76,43 @@ export const ProjectDetail = ({ projects }) => {
                 )}
             </div>
             <p>{description}</p>
-            {sourceCode && siteLink ? (<div>
+            <h3 style={{ textAlign: 'center', marginTop: '20px' }}>Technologies Used</h3>
+            <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                {technology && technology.length > 0 ? (
+                    technology.map((tech, index) => (
+                        <div className="item" key={index}>
+                            <img src={techIcons[tech]} alt={tech} />
+                            <h5>{tech}</h5>
+                        </div>
+                    ))
+                ) : (
+                    <p>No technologies listed for this project.</p>
+                )}
+            </Carousel>
+
+            <br></br>
+            {sourceCode && siteLink ? (
+                <div>
+                    <p>
+                        <a href={sourceCode} target="_blank" className="back-button" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                            Open source code
+                        </a>
+                        <br></br>
+                        <br></br>
+                        <a href={siteLink} target="_blank" className="back-button" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                            Live site
+                        </a>
+                    </p>
+                </div>
+            ) : sourceCode ? (
                 <p>
-                    <a href={sourceCode} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
-                        Open source code
-                    </a>
-                    <br></br>
-                    <a href={siteLink} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
-                        Live site
-                    </a>
-                </p>
-            </div>) : sourceCode ? (
-                <p>
-                    <a href={sourceCode} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
+                    <a href={sourceCode} target="_blank" className="back-button" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                         Open source code
                     </a>
                 </p>
             ) : siteLink ? (
                 <p>
-                    <a href={siteLink} target="_blank" rel="noopener noreferrer" style={{ color: "#fff", textDecoration: "none" }}>
+                    <a href={siteLink} target="_blank" className="back-button" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                         Live site
                     </a>
                 </p>
