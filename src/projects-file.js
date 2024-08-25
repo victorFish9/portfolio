@@ -10,6 +10,10 @@ import dogStoreScreen2 from './photo/dogStoreScreen2.png'
 import dogStoreScreen3 from './photo/dogStoreScreen3.png'
 import dogStoreScreen4 from './photo/dogStoreScreen4.png'
 
+import cleaningScreen1 from './photo/CleaningScreen1.png'
+import cleaningScreen2 from './photo/CleaningScreen2.png'
+import cleaningScreen3 from './photo/CleaningScreen3.png'
+
 
 const projects = [
     {
@@ -35,7 +39,7 @@ const projects = [
         id: "2",
         title: "Dog Store Website",
         description: "I developed a full-stack e-commerce website for a dog store as part of a university team project, using Java Spring Boot for the back-end and React for the front-end. The project included creating a back-end API to manage products, users, customers, and manufacturers. The Main API serves as a central hub, linking to resources like products, manufacturers, types, customers, and users. The User Management API handles user registration, authentication, and roles, including creating, updating, and deleting profiles. The Manufacturer API manages manufacturer details and associated products, while the Product Type API categorizes products for easy filtering. The Customer API manages customer profiles and supports searching. We developed a simple front-end with React to demonstrate product listings from the API and a registration system, effectively combining the back-end and front-end. At the end of the project, I wrote Docker rules to deploy the back-end system to Render.com.",
-        imgUrl: dogStoreScreen1,
+        imgUrl: "https://www.dogster.com/wp-content/uploads/2024/02/Santas-Little-Helper.jpg",
         images: [
             dogStoreScreen1,
             dogStoreScreen3,
@@ -58,7 +62,27 @@ const projects = [
         images: [
             "https://t4.ftcdn.net/jpg/02/38/40/55/360_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
         ],
-        language: "Python"
+        language: "Java"
+    },
+    {
+        id: "4",
+        title: "Cleaning Company Website",
+        description: "I worked on a contract project with a Finnish cleaning company to develop an informative website. The site was built using JavaScript, CSS, and HTML, and it included key features such as company information, pricing details, profiles of cleaning staff, and a contact form. Due to an agreement with the client, the company’s name and specific details have been replaced with placeholder text (Lorem Ipsum) in my portfolio. Despite these adjustments, the site effectively demonstrates the functionality and design approach I implemented to meet the client’s needs.",
+        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDtaEyZY7y1YwjXdwp9qNASMN84dh2NEVQE0LFxbbizhyB5IueaCzqEYSYam49k6Z9-o&usqp=CAU",
+        images: [
+            cleaningScreen1,
+            cleaningScreen2,
+            cleaningScreen3,
+        ],
+        sourceCode: "https://github.com/victorFish9/CleaningServices_webpage/blob/main/index.html",
+        siteLink: "https://victorfish9.github.io/CleaningServices_webpage/",
+        language: "JavaScript",
+        technology: [
+            "JavaScript",
+            "CSS",
+            "HTML",
+
+        ]
     },
 
 ];

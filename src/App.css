@@ -516,6 +516,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 100%;
+  /* or specify a fixed width */
+  height: 200px;
+  /* adjust based on your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proj-imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* This ensures the image covers the frame without distortion */
 }
 
 .proj-imgbx::before {
