@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -8,6 +8,10 @@ export const ProjectDetail = ({ projects }) => {
     const project = projects.find(proj => proj.id === projectId);
     const navigate = useNavigate();
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const techIcons = {
         // https://devicon.dev/
