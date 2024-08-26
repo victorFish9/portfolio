@@ -15,10 +15,10 @@ export const Footer = () => {
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href=""><img src={LinkedInImg} /></a>
+                            <a href="https://www.linkedin.com/in/victor-cherkasov-621620221/"><img src={LinkedInImg} /></a>
                         </div>
                         <div className="social-icon">
-                            <a href=""><img src={GithubImg} alt="LinkedIn" /></a>
+                            <a href="https://github.com/victorFish9?tab=repositories"><img src={GithubImg} alt="LinkedIn" /></a>
                         </div>
                         <p>victor.cherkasov222@gmail.com</p>
                         <p>CopyRight 2024. All Right Reserved</p>

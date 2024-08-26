@@ -48,10 +48,10 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={LinkedInImg} alt="LinkedIn" /></a>
+                            <a href="https://www.linkedin.com/in/victor-cherkasov-621620221/"><img src={LinkedInImg} alt="LinkedIn" /></a>
                         </div>
                         <div className="social-icon">
-                            <a href="#"><img src={GithubImg} alt="Github" /></a>
+                            <a href="https://github.com/victorFish9?tab=repositories"><img src={GithubImg} alt="Github" /></a>
                         </div>
                     </span>
                 </Navbar.Collapse>
