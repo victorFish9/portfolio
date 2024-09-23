@@ -75,7 +75,8 @@ const projects = [
         sourceCode: "https://github.com/victorFish9/DjangoWebsite",
         technology: [
             "Django",
-            "CSS"
+            "CSS",
+            "HTML"
         ]
     },
     {
