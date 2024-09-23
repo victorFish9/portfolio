@@ -14,6 +14,11 @@ import cleaningScreen1 from './photo/CleaningScreen1.png'
 import cleaningScreen2 from './photo/CleaningScreen2.png'
 import cleaningScreen3 from './photo/CleaningScreen3.png'
 
+import Djstore1 from './photo/Dj-store1.png'
+import Djstore2 from './photo/Dj-store2.png'
+import Djstore3 from './photo/Dj-store3.png'
+import Djstore4 from './photo/Dj-store4.png'
+import Djstore5 from './photo/Dj-store5.png'
 
 const projects = [
     {
@@ -56,13 +61,22 @@ const projects = [
     },
     {
         id: "3",
-        title: "Pyhton Project",
-        description: "Design & Development",
-        imgUrl: "https://t4.ftcdn.net/jpg/02/38/40/55/360_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
+        title: "Django Web Store",
+        description: "For Users: range of items, view prices, descriptions, and captivating photos. Add items to your cart, sign up, and enjoy a streamlined checkout process. With user authentication, user information is securely stored for future visits. Update user profile with ease and make confident payments through integrated Stripe API system.\n" + "For Store Staff: Manage inventory effortlessly with dedicated admin panel. Upload new products and modify existing listings seamlessly. Gain valuable insights into order management, track statuses (complete, shipped, or canceled), and ensure efficient coordination. The admin panel is accessible only to authorized staff, prioritizing security and protecting sensitive information.",
+        imgUrl: "https://i.pinimg.com/originals/df/70/fc/df70fc7f957c5811ff783ad0efdd4966.jpg",
         images: [
-            "https://t4.ftcdn.net/jpg/02/38/40/55/360_F_238405533_yyX4K55OmH2LiM7LQ01ITn6kl0b6J6K8.jpg",
+            Djstore1,
+            Djstore2,
+            Djstore3,
+            Djstore4,
+            Djstore5,
         ],
-        language: "Java"
+        language: "Python",
+        sourceCode: "https://github.com/victorFish9/DjangoWebsite",
+        technology: [
+            "Django",
+            "CSS"
+        ]
     },
     {
         id: "4",
