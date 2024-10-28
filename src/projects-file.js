@@ -99,6 +99,24 @@ const projects = [
 
         ]
     },
+    {
+        id: "5",
+        title: "Roman converter",
+        description: "I worked on a contract project with a Finnish cleaning company to develop an informative website. The site was built using JavaScript, CSS, and HTML, and it included key features such as company information, pricing details, profiles of cleaning staff, and a contact form. Due to an agreement with the client, the company’s name and specific details have been replaced with placeholder text (Lorem Ipsum) in my portfolio. Despite these adjustments, the site effectively demonstrates the functionality and design approach I implemented to meet the client’s needs.",
+        imgUrl: "https://weatheredfinishes.com/cdn/shop/files/download-2023-01-25T160339.885.png?v=1727452370",
+        images: [
+
+        ],
+        sourceCode: "https://github.com/victorFish9/CleaningServices_webpage/blob/main/index.html",
+        siteLink: "https://victorfish9.github.io/CleaningServices_webpage/",
+        language: "Python",
+        technology: [
+            "JavaScript",
+            "CSS",
+            "HTML",
+
+        ]
+    },
 
 ];
 
