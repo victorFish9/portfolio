@@ -20,6 +20,9 @@ import Djstore3 from './photo/Dj-store3.png'
 import Djstore4 from './photo/Dj-store4.png'
 import Djstore5 from './photo/Dj-store5.png'
 
+import Djroman1 from './photo/DjRoman1.png'
+import Djroman2 from './photo/DjRoman2.png'
+
 const projects = [
     {
         id: "1",
@@ -102,18 +105,18 @@ const projects = [
     {
         id: "5",
         title: "Roman converter",
-        description: "I worked on a contract project with a Finnish cleaning company to develop an informative website. The site was built using JavaScript, CSS, and HTML, and it included key features such as company information, pricing details, profiles of cleaning staff, and a contact form. Due to an agreement with the client, the company’s name and specific details have been replaced with placeholder text (Lorem Ipsum) in my portfolio. Despite these adjustments, the site effectively demonstrates the functionality and design approach I implemented to meet the client’s needs.",
+        description: "I worked on an algorithm challenge on LeetCode to convert Roman numerals to integers. After successfully resolving the algorithm, I decided to build a project using Django to create a user-friendly application for this purpose. To enhance my development skills, I researched Docker for containerization and learned how to create consistent development environments. I implemented a CI/CD pipeline to automate deployments, which streamlined updates and ensured that the latest version of the application is always live. This project not only deepened my understanding of algorithms but also allowed me to apply modern development practices, resulting in a practical tool for users.",
         imgUrl: "https://weatheredfinishes.com/cdn/shop/files/download-2023-01-25T160339.885.png?v=1727452370",
         images: [
-
+            Djroman1,
+            Djroman2,
         ],
-        sourceCode: "https://github.com/victorFish9/CleaningServices_webpage/blob/main/index.html",
-        siteLink: "https://victorfish9.github.io/CleaningServices_webpage/",
+        sourceCode: "https://github.com/victorFish9/roman_converter",
+        siteLink: "https://roman-converter-r5mm.onrender.com/converter/convert/",
         language: "Python",
         technology: [
-            "JavaScript",
-            "CSS",
-            "HTML",
+            "Django",
+            "Docker",
 
         ]
     },
