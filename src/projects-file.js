@@ -106,7 +106,7 @@ const projects = [
         id: "5",
         title: "Roman converter",
         description: "I worked on an algorithm challenge on LeetCode to convert Roman numerals to integers. After successfully resolving the algorithm, I decided to build a project using Django to create a user-friendly application for this purpose. To enhance my development skills, I researched Docker for containerization and learned how to create consistent development environments. I implemented a CI/CD pipeline to automate deployments, which streamlined updates and ensured that the latest version of the application is always live. This project not only deepened my understanding of algorithms but also allowed me to apply modern development practices, resulting in a practical tool for users.",
-        imgUrl: "https://weatheredfinishes.com/cdn/shop/files/download-2023-01-25T160339.885.png?v=1727452370",
+        imgUrl: "https://t4.ftcdn.net/jpg/06/41/36/63/360_F_641366344_9f90pSljA8V337y6sjomxq4RgRKKk7al.jpg",
         images: [
             Djroman1,
             Djroman2,
