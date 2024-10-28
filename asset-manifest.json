@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6bea427a.css",
-    "main.js": "/portfolio/static/js/main.5588f05d.js",
+    "main.js": "/portfolio/static/js/main.3e68e54d.js",
     "static/js/453.45a2cce2.chunk.js": "/portfolio/static/js/453.45a2cce2.chunk.js",
     "static/media/esnScreen1.png": "/portfolio/static/media/esnScreen1.5bd26dd58254c50584ee.png",
     "static/media/esnScreen4.png": "/portfolio/static/media/esnScreen4.48725e4e1184213884f8.png",
@@ -19,8 +19,10 @@
     "static/media/dogStoreScreen3.png": "/portfolio/static/media/dogStoreScreen3.21e4595c76c599a04d0b.png",
     "static/media/dogStoreScreen4.png": "/portfolio/static/media/dogStoreScreen4.4319893ac15b35e5e25e.png",
     "static/media/github.png": "/portfolio/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/DjRoman2.png": "/portfolio/static/media/DjRoman2.ae67861a3d2fed749205.png",
     "static/media/dogStoreScreen1.png": "/portfolio/static/media/dogStoreScreen1.72e9c8495ad1ba35e5f9.png",
     "static/media/web-FI-HELS-KAN-colour-black-with-white-background.jpeg": "/portfolio/static/media/web-FI-HELS-KAN-colour-black-with-white-background.7f06cd81612a599065a5.jpeg",
+    "static/media/DjRoman1.png": "/portfolio/static/media/DjRoman1.bda6efd904da6e6072ee.png",
     "static/media/header-img.png": "/portfolio/static/media/header-img.c221ca86c87271bd8a48.png",
     "static/media/linkedin-svgrepo-com.png": "/portfolio/static/media/linkedin-svgrepo-com.2800c56b104c69bf1420.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -28,11 +30,11 @@
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
     "main.6bea427a.css.map": "/portfolio/static/css/main.6bea427a.css.map",
-    "main.5588f05d.js.map": "/portfolio/static/js/main.5588f05d.js.map",
+    "main.3e68e54d.js.map": "/portfolio/static/js/main.3e68e54d.js.map",
     "453.45a2cce2.chunk.js.map": "/portfolio/static/js/453.45a2cce2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bea427a.css",
-    "static/js/main.5588f05d.js"
+    "static/js/main.3e68e54d.js"
   ]
 }
